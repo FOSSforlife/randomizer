@@ -15,23 +15,23 @@
 		the user visits this file. If the user decides to close and reopen the browser,
 		the user is still redirected to the same URL since a cookie is saved in the
 		user's browser.
-		
+
 		Peter M. Dahlgren
 		@peterdalle
 		peterdahlgren.com
 		2016-01-05
 		*/
-		
+
 		// List of URLs (two or more) for the experimental treatment and control groups.
 		var RedirectURLs = {
 			"urls" : [
 				{ "url" : "https://vox.com" },
-				{ "url" : "https://www.inoreader.com/all\_articles" },
+				{ "url" : "https://www.inoreader.com/all_articles" },
 				{ "url" : "https://github.com/fossforlife/courses/blob/main/README.md" },
 				{ "url" : "https://start.me/p/X2DPgr/saved" },
-				{ "url" : "https://rationalwiki.org/wiki/Main\_Page" },
+				{ "url" : "https://rationalwiki.org/wiki/Main_Page" },
 			]
-		};
+		}
 
 		// Count the number of URLs in list.
 		var Groups = RedirectURLs.urls.length;
